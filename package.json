@@ -2,12 +2,18 @@
   "name": "mutation-testing-jvm-iska",
   "version": "1.0.0",
   "description": "Slides for the mutation-testing for JVM iska",
-  "scripts": {},
+  "scripts": {
+    "start": "reveal-md slides/10-index.md",
+    "dev": "reveal-md slides/10-index.md -w"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hugo-vrijswijk/mutation-testing-jvm-iska.git"
   },
   "author": "Hugo van Rijswijk",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/hugo-vrijswijk/mutation-testing-jvm-iska#readme"
+  "homepage": "https://github.com/hugo-vrijswijk/mutation-testing-jvm-iska#readme",
+  "dependencies": {
+    "reveal-md": "^3.4.7"
+  }
 }
