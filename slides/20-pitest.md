@@ -12,7 +12,7 @@ Bytecode zorgt voor 'junk' mutaties, daarom niet geschikt voor Scala.
 
 ----
 
-<!-- .slide: data-background="/img/java_5.png" data-background-size="contain" data-background-color="#e84b3c" -->
+<!-- .slide: data-background="/img/java_5.png" data-background-size="contain" data-background-color="#000000" -->
 
 Note: Zeg ook dat veel van de sourcecode in java 5 is geschreven, zo oud is het al. Stood the test of time.
 
@@ -22,7 +22,15 @@ Note: Zeg ook dat veel van de sourcecode in java 5 is geschreven, zo oud is het 
 
 ----
 
-insert plaatje van oude html rapport versus nieuwe rapport
+<!-- .slide: data-background="/img/old_report.png" data-background-size="contain" data-background-color="#000000" -->
+
+----
+
+<!-- .slide: data-background="/img/hcoles.png" data-background-size="contain" data-background-color="#000000" -->
+
+----
+
+TODO: Nieuw report nodig :o
 
 ----
 
