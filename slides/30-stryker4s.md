@@ -2,10 +2,19 @@
 
 ----
 
+## Scala
+
+???
+
+----
+
+# Nice to meet you
+
 - Versie 0.1.0 eind 2018 👶
 - Source code muteren
 - Scala-specifieke mutaties
-
+- Fancy reporting
+- 
 ----
 
 ## Function mutators!
@@ -17,6 +26,20 @@
 | `a.exists(b)`      | `a.forall(b)`      |
 | `a.forall(b)`      | `a.exists(b)`      |
 | more stuff!        | lots more! 🎁 |
+
+----
+
+```scala
+def wat() = {
+  var a = 2
+  val toAdd = doSomeComplicatedMaths
+  a += toAdd
+}
+```
+
+<img src="https://i.imgflip.com/44ekns.jpg" />
+
+<!-- .element class="fragment" data-fragment-index="1" -->
 
 ----
 
@@ -40,38 +63,28 @@ def addWorld(a: String): Boolean = {
 
 ----
 
-```scala
-def wat() = {
-  var a = 2
-  val toAdd = doSomeComplicatedMaths
-  a += toAdd
-}
-```
-
-<img src="https://i.imgflip.com/44ekns.jpg" />
-
-<!-- .element class="fragment" data-fragment-index="1" -->
-
-----
-
-
-## The Pitest way
-
-![alt text](img/byte-code-mutation.png)
-
-----
-
 ## The Stryker (JS/TS) way
 
 ![alt text](img/source-code-mutation.png)
 
 Not for long: [https://github.com/stryker-mutator/stryker/issues/1514](https://github.com/stryker-mutator/stryker/issues/1514)
+
+Note: niet geschikt voor Scala, want...
+----
+
+## The Pitest way
+
+![alt text](img/byte-code-mutation.png)
+
+TODO: Slecht weg-paint.netten
+
+Note: niet geschikt voor Scala, want...
+
 ----
 
 ## The Stryker4s way
 
 ![alt text](img/mutation-switching.png)
-
 
 ----
 
@@ -110,3 +123,5 @@ def greaterThan(a: Int, b: Int): Boolean = {
 ```
 
 <!-- .element class="fragment" data-fragment-index="1" -->
+
+Note: nadelen
