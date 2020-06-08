@@ -12,7 +12,8 @@ Bytecode zorgt voor 'junk' mutaties, daarom niet geschikt voor Scala.
 
 ----
 
-<!-- .slide: data-background="/img/java_5.png" data-background-size="contain" data-background-color="#000000" -->
+
+<img src="/img/java_5.png" />
 
 Note: Zeg ook dat veel van de sourcecode in java 5 is geschreven, zo oud is het al. Stood the test of time.
 
@@ -22,11 +23,11 @@ Note: Zeg ook dat veel van de sourcecode in java 5 is geschreven, zo oud is het 
 
 ----
 
-<!-- .slide: data-background="/img/old_report.png" data-background-size="contain" data-background-color="#000000" -->
+<img src="/img/old_report.png" />
 
 ----
 
-<!-- .slide: data-background="/img/hcoles.png" data-background-size="contain" data-background-color="#000000" -->
+<img src="/img/hcoles.png" />
 
 ----
 
@@ -36,7 +37,7 @@ TODO: Nieuw report nodig :o
 
 https://github.com/Wmaarts/pitest-mutation-testing-elements-plugin
 
-```
+```xml
 <plugin>
     <groupId>org.pitest</groupId>
     <artifactId>pitest-maven</artifactId>

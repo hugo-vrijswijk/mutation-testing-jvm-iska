@@ -16,6 +16,8 @@ Note: Voorstellen
 - Mutation testing voor Java (Pitest)
 - Mutation testing voor Scala (Stryker4s)
 
+Note: stel vragen tussendoor
+
 ---
 
 # Mutation testing
