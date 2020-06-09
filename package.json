@@ -14,6 +14,6 @@
   "license": "UNLICENSED",
   "homepage": "https://github.com/hugo-vrijswijk/mutation-testing-jvm-iska#readme",
   "dependencies": {
-    "reveal-md": "^3.4.7"
+    "reveal-md": "^4.0.0-beta.0"
   }
 }
