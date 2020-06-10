@@ -1,5 +1,10 @@
 {
   "preprocessor": "preprocess.js",
+  "scripts": [
+    "mermaid.min.js",
+    "reveal-mermaid.js"
+  ],
+  "css": "style.css",
   "includeDir": "slides",
   "_": ["slides/10-index.md"]
 }

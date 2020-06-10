@@ -1,3 +1,7 @@
+<!-- .slide: data-background-color="#dedede" -->
+
+![pitest-logo](img/pitest-logo.png)
+
 # Pitest
 
 ----
