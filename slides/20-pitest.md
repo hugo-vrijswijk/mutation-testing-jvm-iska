@@ -53,7 +53,7 @@ Note: Zeg ook dat veel van de sourcecode in java 5 is geschreven, zo oud is het 
 
 https://github.com/Wmaarts/pitest-mutation-testing-elements-plugin
 
-```xml
+```xml [6-10,13-15]
 <plugin>
     <groupId>org.pitest</groupId>
     <artifactId>pitest-maven</artifactId>
