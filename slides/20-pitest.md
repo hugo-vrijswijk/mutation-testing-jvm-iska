@@ -9,13 +9,26 @@
 
 - State-of-the-art mutation testing framework voor Java
 - Bytecode muteren
+- Eerste release op Github op 25 Maart 2014
 - `v1.0.0` op 18 Mei 2014
+- Laatste release `1.5.2` 1 maand geleden 
 
 Note: Coverage probing genereert een map die laat zien welke test welk stukje code raakt.
-Bytecode zorgt voor 'junk' mutaties, daarom niet geschikt voor Scala.
 
 ----
 
+### Bytecode mutatie
+😃🡲 💻🡲 👽🡲 ✅ ❌ 🡲 📊
+
+1. Source code
+1. Byte code
+1. Mutant
+1. Killed / survived
+1. Report
+
+Note: Bytecode zorgt voor 'junk' mutaties, daarom niet geschikt voor Scala.
+
+----
 
 <img src="/img/java_5.png" />
 
