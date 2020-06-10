@@ -73,6 +73,8 @@ Note: Code coverage is hier 100%
 
 <!-- .element class="fragment" data-fragment-index="1" -->
 
+Note: Dat is wat mutation testing is. Voor en nadelen zijn...
+
 ----
 
 ## Frameworks

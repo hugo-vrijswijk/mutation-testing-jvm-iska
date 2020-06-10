@@ -2,7 +2,6 @@
 
 ![pitest-logo](img/pitest-logo.png)
 
-# Pitest
 
 ----
 ## Wat is Pitest?

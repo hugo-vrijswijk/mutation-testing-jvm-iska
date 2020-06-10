@@ -11,7 +11,6 @@
 - 🤝 FP + OOP = ❤️
 - Statically typed
 - Java interop
-- High-level
 
 
 Note: Scala combines object-oriented and functional programming in one concise, high-level language. Scala's static types help avoid bugs in complex applications, and its JVM and JavaScript runtimes let you build high-performance systems with easy access to huge ecosystems of libraries.
@@ -225,38 +224,3 @@ def greaterThan(a: Int, b: Int): Boolean = {
 <!-- .element data-id="code-animation" -->
 
 Note: nadelen
-
-----
-## Future improvements 
-
-<iframe src="https://giphy.com/embed/fH985LNdqFZXOFHygK" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
-----
-<!-- .slide: data-auto-animate -->
-
-<div class="mermaid">
-sequenceDiagram
-    Stryker4s->>Stryker4s: Find mutants
-    Stryker4s->>Stryker4s: Apply mutated code
-    Stryker4s->>Sbt: Ga testen!
-    loop Per mutant
-      Sbt->>Sbt: - Check for changed files <br>- Start new JVM<br>- Load classpath<br>- Run tests
-      Sbt->>Stryker4s: Report results
-    end
-    Stryker4s->>Stryker4s: Create report
-</div>
-
-----
-<!-- .slide: data-auto-animate -->
-
-<div class="mermaid">
-sequenceDiagram
-    Stryker4s->>Stryker4s: Find mutants
-    Stryker4s->>Stryker4s: Apply mutated code
-    Stryker4s->>Subprocess: Ga testen!
-    loop Per mutant
-      Subprocess->>Subprocess: - Run tests
-      Subprocess->>Stryker4s: Report results
-    end
-    Stryker4s->>Stryker4s: Create report
-</div>
