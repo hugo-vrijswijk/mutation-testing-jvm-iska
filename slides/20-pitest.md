@@ -31,7 +31,7 @@ Note: Zeg ook dat veel van de sourcecode in java 5 is geschreven, zo oud is het 
 
 ----
 
-TODO: Nieuw report nodig :o
+<img src="/img/new_report.png" />
 
 ----
 
